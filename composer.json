@@ -1,0 +1,22 @@
+{
+    "name": "joni-jones/yii2-heroku-logger",
+    "description": "Simple logger implementation to works on heroku services",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","heroku","logging","logger"],
+    "licence": "MIT",
+    "stability": "stable",
+    "authors": [
+        {
+            "name": "Ievgen Sentiabov",
+            "email": "ievgen.sentiabov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr4": {
+            "jones\\herokulogger\\": ""
+        }
+    }
+}
